@@ -1,5 +1,5 @@
 def fizzbuzz(int)
-  val = ""
+  val = nil
 
   if int % 3 == 0
     val += "Fizz"
@@ -7,7 +7,5 @@ def fizzbuzz(int)
   if int % 5 == 0
     val += "Buzz"
   end
-  if val == ""
-    return nil
-  end
+  
 end
