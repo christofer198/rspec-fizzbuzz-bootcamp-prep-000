@@ -1,15 +1,5 @@
 def fizzbuzz(int)
-  x = int
-  if int % 3 == 0
-    x = "Fizz"
+  if int % 3 == 0 # if the number int is divisible by 3
+    "Fizz" # Go fizz
   end
-  if int % 5 == 0
-    x = "Buzz"
-  end
-  if int % 3 == 0 && int % 5 == 0
-    x = "FizzBuzz"
-  end
-
-  puts "#{x}"
-
 end
