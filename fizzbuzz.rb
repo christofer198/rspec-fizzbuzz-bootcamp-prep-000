@@ -1,4 +1,4 @@
 def fizzbuzz(value)
 
-  value
+  return value
 end
