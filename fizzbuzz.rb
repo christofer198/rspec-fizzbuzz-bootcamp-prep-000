@@ -7,5 +7,5 @@ def fizzbuzz(int)
   if int % 5 == 0
     val += "Buzz"
   end
-
+  return val
 end
